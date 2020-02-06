@@ -7,10 +7,11 @@ p {
 	font-family: sans-serif;
 }
 
-h3 {
-	font-size: 54px; /* Hacemos la fuente del título pequeño super-grande */
+h1{
+	font-size: 60px;
+	align: center;
 }
 
 em {
-	font-weight: bold; /* Ponemos en énfasis en negrita */
+	font-weight: bold; /* Ponemos en Ã©nfasis en negrita */
 }
