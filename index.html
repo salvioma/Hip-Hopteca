@@ -13,132 +13,102 @@
 		<td><nombre>¡MUCHA MÚSICA, MUCHAS PLAYLISTS!</nombre></td>
 		</tr></table> 
 		<p> bannerEHEHE</p>
-			<style>
-			*, *:before, *:after {
-				 margin: 0;
-				 padding: 0;
-				 box-sizing: border-box;
-			}
-			 .container {
-				 width: 100%;
-				 height: 100%;
-			}
-			//No poner para que ocupe toda la pantalla
-			 .tutorial {
-				 width: 80%;
-				 margin: 5% auto 0 auto;
-				 box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-				 background-color: #f9f9f9;
-				 max-width: 800px;
-			}
-			//Cacho rosa
-			 .tutorial .slider {
-				 width: 100%;
-				 height: 300px;
-				 background-color: #f03861;
-			}
-			 .tutorial .information {
-				 width: 100%;
-				 padding: 20px 50px;
-				 margin-bottom: 30px;
-				 font-family: 'Open Sans', sans-serif;
-			}
-			 .tutorial .information h1 {
-				 color: #333;
-				 font-size: 1.5rem;
-				 padding: 0px 10px;
-				 border-left: 3px solid #f03861;
-			}
-			 .tutorial .information h3 {
-				 color: #e0e0e0;
-				 font-size: 1rem;
-				 font-weight: 300;
-				 padding: 0px 10px;
-				 border-left: 3px solid #f03861;
-			}
-			//No sirve de mucho
-			 .tutorial .information p {
-				 padding: 10px 0px;
-			}
-			 .tutorial ul {
-				 font-size: 0;
-				 list-style-type: none;
-			}
-			//Menu
-			 .tutorial ul li {
-				 font-family: 'Open Sans', sans-serif;
-				 font-size: 1rem;
-				 font-weight: 400;
-				 color: #333;
-				 display: inline-block;
-				 padding: 15px;
-				 position: relative;
-			}
-			//Bug importante
-			 .tutorial ul li ul {
-				 display: none;
-			}
-			//Hace que salga la mano
-			 .tutorial ul li:hover {
-				 cursor: pointer;
-				 background-color: #f2f2f2;
-			}
-			//Hace que pueda desplegarse
-			 .tutorial ul li:hover ul {
-				 display: block;
-				 margin-top: 15px;
-				 width: 200px;
-				 left: 0;
-				 position: absolute;
-			}
-			//Desplegable
-			 .tutorial ul li:hover ul li {
-				 display: block;
-				 background-color: #e7e7e7;
-			}
-			//Recuadros avalible
-			 .tutorial ul li:hover ul li span {
-				 float: right;
-				 color: #f9f9f9;
-				 background-color: #f03861;
-				 padding: 2px 5px;
-				 text-align: center;
-				 font-size: 0.8rem;
-				 border-radius: 3px;
-			}
-			</style>
-		<div class="container">
-		    <div class="tutorial">
-			<ul>
-			    <li> Inicio </li>
-			  <li>Lo mejor de 2020
-			      <i class="fa fa-angle-down"></i>
-			      <ul>
-				<li>Rap español 2020</li>
-				<li>Trap español 2020</li>
-				<li>Trap americano 2020</li>
-				<li>Reggaeton 2020</li>
-			     </ul>
-			    </li>
-			    <li>Por genero musical <i class="fa fa-angle-down"></i>
-			      <ul>
-				<li>Rap</li>
-				<li>Reggae</li>
-				<li>Trap</li>
-			     </ul>
-			    </li>
-			    <li>Por artista
-					<ul>
-				 <li>Rap</li>
-				<li>Trap</li>
-			     </ul>
-			    </li>
-			    <li> Contacto </li>
-			</ul>
-			<div class="slider"></div>
-			<div class="information"></div>
-		    </div>
-		</div>
+		<style>
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: black;
+  color: #00e600;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+  .ban{
+    background-color: black;
+    width = 100%;
+  }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+<table class="ban" border="1" frame="box" rules="all" cellpadding=1 width="100%">
+		<tr>
+      <td><center>
+      <div class="dropdown">
+  <button class="dropbtn">Inicio</button>
+</div>
+      </td>
+      <td><center>
+      <div class="dropdown">
+  <button class="dropbtn">Lo mejor de 2020</button>
+  <div class="dropdown-content">
+    <a href="#">Rap español 2020</a>
+    <a href="#">Trap español 2020</a>
+    <a href="#">Trap americano 2020</a>
+    <a href="#">Reggaeton 2020</a>
+  </div>
+</div>
+      </td>
+		<td><center>
+      <div class="dropdown">
+  <button class="dropbtn">Por genero musical</button>
+  <div class="dropdown-content">
+    <a href="#">Rap</a>
+    <a href="#">Trap</a>
+  </div>
+</div>
+      </td>
+      <td><center>
+        <div class="dropdown">
+  <button class="dropbtn">Por artista</button>
+  <div class="dropdown-content">
+    <a href="#">Rap</a>
+    <a href="#">Trap</a>
+    <a href="#">Reggae</a>
+  </div>
+</div>
+      </td>
+       <td><center>
+        <div class="dropdown">
+  <button class="dropbtn">Contacto</button>
+</div>
+      </td>
+		</tr></table> 
+		
 		<p>Bienvenido a Hip-Hopteca, esta es una página donde encontrarás diferentes playlist de la plataforma <em>spotify</em><p>
 		<p>El contenido principal de estas playlist es <em>RAP</em> y <em>TRAP</em>. Selecciona tu contenido favorito.</p>
 		
