@@ -23,15 +23,6 @@ h3{
 
 table, th, td { text-align: center !important; }
 
-nombre{
-	white-space: nowrap;
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-	font-size: 24px;
-	text-align: right !important;
-	right: 100%;
-	color: #ffffff !important;
-}
-
 h1{
 	font-size: 60px;
 }
