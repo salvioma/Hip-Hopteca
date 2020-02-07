@@ -28,6 +28,7 @@ nombre{
 	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	font-size: 24px;
 	text-align: right !important;
+	right: 100%;
 }
 
 h1{
