@@ -13,6 +13,8 @@ p {
 h3{
 	font-size: 6 !important;
 	font-weight: bold !important;
+	text-align: justify;
+	text-align: center !important;
 }
 
 table, th, td { text-align: center !important; }
