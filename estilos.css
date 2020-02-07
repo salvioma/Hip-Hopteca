@@ -8,13 +8,17 @@ p {
 	font-family:sans-serif;
 	white-space: nowrap;
 	font-size: 20px !important;
+	text-align: justify;
+	text-align: center !important;
+}
+
+rapTrap{
+	font-size: 22px !important;
+	font-weight: bold !important;
 }
 
 h3{
 	font-size: 22px !important;
-	font-weight: bold !important;
-	text-align: justify;
-	text-align: center !important;
 }
 
 table, th, td { text-align: center !important; }
