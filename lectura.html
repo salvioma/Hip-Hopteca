@@ -202,18 +202,18 @@
 			$datos = fopen("./datosRap.txt", "r");
 			if ($datos) {
  				while(!feof($datos)) {
-					echo <tr>
+					<tr>
 						for($i=0;$i<2;$i++){
-							echo <td> echo<p class = "historia"><a class="enlace" href=fgets($datos)>fgets($datos)</p>
+							<td><p class = "historia"><a class="enlace" href=fgets($datos)>fgets($datos)</p>
 							</td>
-							echo <td> echo<p class = "historia">fgets($datos)</p>
+							<td><p class = "historia">fgets($datos)</p>
 							</td>
 						}
 					</tr>
     				fclose($datos);
 			}
 			else{
-				echo<p class = "historia">Ha ocurrido un error tratando de leer el archivo que contiene los datos</p>
+				<p class = "historia">Ha ocurrido un error tratando de leer el archivo que contiene los datos</p>
 			}
 		?>
 		</table>
