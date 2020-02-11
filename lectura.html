@@ -198,24 +198,24 @@
 			<td> <p class = "titulo">Número de reproducciones</p>
 			</td>
 		</tr>
+		<tr>	
 		<?php
 			$datos = fopen("./datosRap.txt", "r");
 			if ($datos) {
  				while(!feof($datos)) {
-					<tr>
 						for($i=0;$i<2;$i++){
 							<td><p class = "historia"><a class="enlace" href=fgets($datos)>fgets($datos)</p>
 							</td>
 							<td><p class = "historia">fgets($datos)</p>
 							</td>
 						}
-					</tr>
     				fclose($datos);
 			}
 			else{
 				<p class = "historia">Ha ocurrido un error tratando de leer el archivo que contiene los datos</p>
 			}
 		?>
+		</tr>
 		</table>
 		
 		<pre>
