@@ -198,68 +198,26 @@
 			<td> <p class = "titulo">Número de reproducciones</p>
 			</td>
 		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:5me0Irg2ANcsgc93uaYrpb">The Notorious B.I.G.</p>
-			</td>
-			<td> <p class = "historia">Nueva York (Estados Unidos)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:7KwZNVEaqikRSBSpyhXK2j">Hypnotize</p>
-			</td>
-			<td> <p class = "historia">387 M</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:1ZwdS5xdxEREPySFridCfh">2 pac</a></p>
-			</td>
-			<td> <p class = "historia">Nueva York (Estados Unidos)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:3ssX20QT5c3nA9wk78V1LQ">Ambitionz az a ridah</a></p>
-			</td>
-			<td> <p class = "historia">285 M</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:6O2zJ0tId7g07yzHtX0yap">Moob deep</a></p>
-			</td>
-			<td> <p class = "historia">Nueva York (Estados Unidos)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:33ZXjLCpiINn8eQIDYEPTD">Shook Ones, pt. II</a></p>
-			</td>
-			<td> <p class = "historia">181 M</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:1DH9RJ0xBVje6gQmK3LWUY">Violadores del verso</a></p>
-			</td>
-			<td> <p class = "historia">Zaragoza (España)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:5AIwfXYjGkWCs4KeeTk2Rq">Cantando</a></p>
-			</td>
-			<td> <p class = "historia">15 M</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:3Ces1OJeGOVGcUB0wPaPXJ">Mala Rodriguez</a></p>
-			</td>
-			<td> <p class = "historia">Cádiz (España)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:29sEnpw1KVfOIyMI8sSTse">Por la noche</a></p>
-			</td>
-			<td> <p class = "historia">8 M</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:56n1NeXsTOOxjX3Z4lVMTJ">SFDK</a></p>
-			</td>
-			<td> <p class = "historia">Sevilla (España)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:3OBNcdIhl1AqNE7JaBwakZ">Esta canción va dedicada</a></p>
-			</td>
-			<td> <p class = "historia">2 M</p>
-			</td>
-		</tr>
-			
-			</table>
+		<? php
+			$datos = fopen("./datosRap.txt", "r");
+			if ($datos) {
+ 				while(!feof($datos)) {
+					echo <tr>
+						for($i=0;$i<2;$i++){
+							echo <td> echo<p class = "historia"><a class="enlace" href=fgets($datos)>fgets($datos)</p>
+							</td>
+							echo <td> echo<p class = "historia">fgets($datos)</p>
+							</td>
+						}
+					</tr>
+    				fclose($datos);
+			}
+			else{
+				echo<p class = "historia">Ha ocurrido un error tratando de leer el archivo que contiene los datos</p>
+			}
+		?>
+		</table>
+		
 		<pre>
 		</pre>
 		<p class = "rapTrap"> Playlists recomendadas </p>
