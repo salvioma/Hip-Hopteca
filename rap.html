@@ -74,6 +74,20 @@
 				white-space: pre-line;
 				font-family:sans-serif;
 				margin: 20px;
+				text-align: justify !important;
+			}
+			.nombrePagina{
+				font-family:sans-serif;
+				font-size: 28px !important;
+				text-align: center !important;
+				font-weight: bold;
+			}
+			.contenidoTabla{
+				font-size: 22px !important;
+				white-space: pre-line;
+				font-family:sans-serif;
+				margin: 20px;
+				text-align: center !important;
 			}
 			.playlist{
 				font-size: 24px !important;
@@ -89,10 +103,9 @@
 				margin: 20px;
 				font-weight: bold;
 			}
-			.escena{
-				font-family:sans-serif;
-				font-size: 28px !important;
-				text-align: center !important;
+			.listaCentrada{
+				text-align: left !important;
+    				display:inline-block;
 			}
 			.artistas{
 				font-size: 24px !important;
@@ -101,11 +114,25 @@
 			}
 			.rapTrap{
 				font-family:sans-serif;
-				font-size: 28px !important;
+				font-size: 24px !important;
+				text-align: center !important;
+			}
+			.escena{
+				font-family:sans-serif;
+				font-size: 24px !important;
 				text-align: center !important;
 				font-weight: bold;
 			}
-			
+			.pieFoto{
+				font-family:sans-serif;
+				font-size: 18px !important;
+				text-align: center !important;
+			}
+			.apartados {
+				background-color: #d9d9d9;
+				border: black 3px solid;
+				border-collapse: collapse;
+			}
 			.fotos{
 				text-align: center !important;
 				align: center;
@@ -136,10 +163,7 @@
 			.enlace:visited { 
 				color:  #2f6a31; 
 			}
-			
 		</style>
-		
-		
 		<table class = "enc" width="100%" border="1" frame="box" rules="all" cellpadding=15 cellspacing="0">
 		<tr><td class="sinBorde"><a href="./"><img border="0" src="./nombreLogo.png" width="*%" height="30%"></a></td>
 		<td class="sinBorde"><img border="0" src="./eslogan.png" height="45%"></td>
@@ -191,93 +215,104 @@
 					</div>
 					      </td> 
 		</tr></table> 
-		<pre> 
-		</pre>
-		<p class="escena"><b>Rap</b></p>
-		<pre>
-		</pre>
+		</br>
+		</br>
+		</br>
+		<center><table class = "apartados" width="*%" border="1" frame="box" rules="all" cellpadding="20" cellspacing="0"><tr><td>
+		<center><dl class="listaCentrada"><p class="nombrePagina"><b>Rap</b></p>
+  		<ul><li><p class = "nombrePagina"><a class="enlace" href="./rap#info">Información básica</a></p></li>
+    		<li><p class="nombrePagina"><a class="enlace" href="./rap#artistas">Artistas más relevantes</a></p></li>
+		<li><p class="nombrePagina"><a class="enlace" href="./rap#playlist">Playlist recomendadas</a></p></li>
+		</ul>
+ 		</dl></center>
+			</tr></td></table></center>	
+		</br>
+		</br>
+		<p class="escena"><a name ="info"><b>Información básica</b></a></p>
+		</br>
 		<p class="historia">El <em>rap</em> es un ingrediente principal de la <em>cultura hip-hop</em>, aunque su origen es anterior al nacimiento de esta. La aparición del rap se produjo en la década de <em>1970</em> a partir de la música <em>jazz</em>, la cual tiene su origen en el blues.</p>
-		<pre>
-		</pre>
-		<p class="rapTrap"> Artistas más relevantes </p>
+		</br>
+		<p class="rapTrap"><a name ="artistas">Artistas más relevantes</a></p>
 		<table class="artistas" width="*%" border="1" style="margin: 0 auto;" frame="box" rules="all" cellpadding=10 cellspacing="0">
 		<tr>
-			<td> <p class = "titulo">Artista</p>
+			<td> <p class = "contenidoTabla"><b>Artista</b></p>
 			</td>
-			<td> <p class = "titulo">Procedencia</p>
+			<td> <p class = "contenidoTabla"><b>Procedencia</b></p>
 			</td>
-			<td> <p class = "titulo">Canción recomendada</p>
+			<td> <p class = "contenidoTabla"><b>Canción recomendada</b></p>
 			</td>
-			<td> <p class = "titulo">Número de reproducciones</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:5me0Irg2ANcsgc93uaYrpb">The Notorious B.I.G.</p>
-			</td>
-			<td> <p class = "historia">Nueva York (Estados Unidos)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:7KwZNVEaqikRSBSpyhXK2j">Hypnotize</p>
-			</td>
-			<td> <p class = "historia">387 M</p>
+			<td> <p class = "contenidoTabla"><b>Número de reproducciones</b></p>
 			</td>
 		</tr>
 		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:1ZwdS5xdxEREPySFridCfh">2 pac</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:5me0Irg2ANcsgc93uaYrpb">The Notorious B.I.G.</p>
 			</td>
-			<td> <p class = "historia">Nueva York (Estados Unidos)</p>
+			<td> <p class = "contenidoTabla">Nueva York (Estados Unidos)</p>
 			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:3ssX20QT5c3nA9wk78V1LQ">Ambitionz az a ridah</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:7KwZNVEaqikRSBSpyhXK2j">Hypnotize</p>
 			</td>
-			<td> <p class = "historia">285 M</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:6O2zJ0tId7g07yzHtX0yap">Moob deep</a></p>
-			</td>
-			<td> <p class = "historia">Nueva York (Estados Unidos)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:33ZXjLCpiINn8eQIDYEPTD">Shook Ones, pt. II</a></p>
-			</td>
-			<td> <p class = "historia">181 M</p>
+			<td> <p class = "contenidoTabla">387 M</p>
 			</td>
 		</tr>
 		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:1DH9RJ0xBVje6gQmK3LWUY">Violadores del verso</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:1ZwdS5xdxEREPySFridCfh">2 pac</a></p>
 			</td>
-			<td> <p class = "historia">Zaragoza (España)</p>
+			<td> <p class = "contenidoTabla">Nueva York (Estados Unidos)</p>
 			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:5AIwfXYjGkWCs4KeeTk2Rq">Cantando</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:3ssX20QT5c3nA9wk78V1LQ">Ambitionz az a ridah</a></p>
 			</td>
-			<td> <p class = "historia">15 M</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:3Ces1OJeGOVGcUB0wPaPXJ">Mala Rodriguez</a></p>
-			</td>
-			<td> <p class = "historia">Cádiz (España)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:29sEnpw1KVfOIyMI8sSTse">Por la noche</a></p>
-			</td>
-			<td> <p class = "historia">8 M</p>
+			<td> <p class = "contenidoTabla">285 M</p>
 			</td>
 		</tr>
 		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:56n1NeXsTOOxjX3Z4lVMTJ">SFDK</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:6O2zJ0tId7g07yzHtX0yap">Moob deep</a></p>
 			</td>
-			<td> <p class = "historia">Sevilla (España)</p>
+			<td> <p class = "contenidoTabla">Nueva York (Estados Unidos)</p>
 			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:3OBNcdIhl1AqNE7JaBwakZ">Esta canción va dedicada</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:33ZXjLCpiINn8eQIDYEPTD">Shook Ones, pt. II</a></p>
 			</td>
-			<td> <p class = "historia">2 M</p>
+			<td> <p class = "contenidoTabla">181 M</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:1DH9RJ0xBVje6gQmK3LWUY">Violadores del verso</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">Zaragoza (España)</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:5AIwfXYjGkWCs4KeeTk2Rq">Cantando</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">15 M</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:3Ces1OJeGOVGcUB0wPaPXJ">Mala Rodriguez</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">Cádiz (España)</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:29sEnpw1KVfOIyMI8sSTse">Por la noche</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">8 M</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:56n1NeXsTOOxjX3Z4lVMTJ">SFDK</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">Sevilla (España)</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:3OBNcdIhl1AqNE7JaBwakZ">Esta canción va dedicada</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">2 M</p>
 			</td>
 		</tr>
 			
 			</table>
-		<pre>
-		</pre>
-		<p class = "rapTrap"> Playlists recomendadas </p>
-		<p class = "playlist"><a class="enlace" href="./mixesRap">Playlists de rap</a></p>
-		<p class = "playlist"><a class="enlace" href="./thisIsRap">Playlists por artista (rap)</a></p>
+		</br>
+		<center><dl class="listaCentrada">
+			<a name="playlist"><p class="escena"><b>Playlists recomendadas</b></p></a>
+				<ul>
+					<li><p class = "historia"><a class="enlace" href="./mixesRap">Playlists de rap</a></p></li>
+					<li><p class = "historia"><a class="enlace" href="./thisIsRap">Playlists por artista (rap)</a></p></li>	
+			</ul></dl>
 		<pre>
 		
 		</pre>
