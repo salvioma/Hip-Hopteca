@@ -74,6 +74,19 @@
 				white-space: pre-line;
 				font-family:sans-serif;
 				margin: 20px;
+				text-align: justify !important;
+			}
+			.nombrePagina{
+				font-family:sans-serif;
+				font-size: 28px !important;
+				font-weight: bold;
+			}
+			.contenidoTabla{
+				font-size: 22px !important;
+				white-space: pre-line;
+				font-family:sans-serif;
+				margin: 20px;
+				text-align: center !important;
 			}
 			.playlist{
 				font-size: 24px !important;
@@ -89,6 +102,10 @@
 				margin: 20px;
 				font-weight: bold;
 			}
+			.listaCentrada{
+				text-align: left !important;
+    				display:inline-block !important;
+			}
 			.artistas{
 				font-size: 24px !important;
 				text-align: center !important;
@@ -98,12 +115,27 @@
 				font-family:sans-serif;
 				font-size: 24px !important;
 				text-align: center !important;
-				font-weight: bold;
 			}
 			.escena{
 				font-family:sans-serif;
-				font-size: 28px !important;
+				font-size: 24px !important;
 				text-align: center !important;
+				font-weight: bold;
+			}
+			.sinCentrar24{
+				font-family:sans-serif;
+				font-size: 24px !important;
+				font-weight: bold;
+			}
+			.pieFoto{
+				font-family:sans-serif;
+				font-size: 18px !important;
+				text-align: center !important;
+			}
+			.apartados {
+				background-color: #d9d9d9;
+				border: black 3px solid;
+				border-collapse: collapse;
 			}
 			.fotos{
 				text-align: center !important;
@@ -135,7 +167,6 @@
 			.enlace:visited { 
 				color:  #2f6a31; 
 			}
-			
 		</style>
 		<table class = "enc" width="100%" border="1" frame="box" rules="all" cellpadding=15 cellspacing="0">
 		<tr><td class="sinBorde"><a href="./"><img border="0" src="./nombreLogo.png" width="*%" height="30%"></a></td>
@@ -188,92 +219,104 @@
 					</div>
 					      </td> 
 		</tr></table> 
-		<pre> 
-		</pre>
-		<p class="escena"><b>Trap</b></p>
-		<pre> </pre>
+		</br>
+		</br>
+		</br>
+		<center><table class = "apartados" width="*%" border="1" frame="box" rules="all" cellpadding="20" cellspacing="0"><tr><td>
+			<center><dl class="listaCentrada"><center><p class="nombrePagina"><b>Trap</b></p></center>
+  		<ul><li><p class = "nombrePagina"><a class="enlace" href="./trap#info">Información básica</a></p></li>
+    		<li><p class="nombrePagina"><a class="enlace" href="./trap#artistas">Artistas más relevantes</a></p></li>
+		<li><p class="nombrePagina"><a class="enlace" href="./trap#playlist">Playlist recomendadas</a></p></li>
+		</ul>
+ 		</dl></center>
+			</tr></td></table></center>	
+		</br>
+		</br>
+
+		<p class="escena"><a name ="info"><b>Información básica</b></a></p>
 		<p class="historia">El trap es un subgénero musical del <a class="enlace" href="../rap"><em>rap</em></a> que se originó en la década de <em>1990</em>, en el sur de los <em>Estados Unidos.</em> Su sonido se caracteriza principalmente por el <em>uso intensivo de los 808</em> y los <em>hi hats de alta velocidad</em>; aunque pueden tener presencia <em>otros elementos</em> como el sintetizador, las cuerdas, los instrumentos de viento y el teclado.</p>
-		<pre>
-		</pre>
-		<P class="rapTrap"> Artistas más relevantes </h2>
+		</br>
+		<p class="escena"><a name ="artistas"><b>Artistas más relevantes</b></a></p>
 		<table class="artistas" width="*%" border="1" style="margin: 0 auto;" frame="box" rules="all" cellpadding=10 cellspacing="0">
 		<tr>
-			<td> <p class = "titulo">Artista</p>
+			<td> <p class = "contenidoTabla"><b>Artista</b></p>
 			</td>
-			<td> <p class = "titulo">Procedencia</p>
+			<td> <p class = "contenidoTabla"><b>Procedencia</b></p>
 			</td>
-			<td> <p class = "titulo">Canción recomendada</p>
+			<td> <p class = "contenidoTabla"><b>Canción recomendada</b></p>
 			</td>
-			<td> <p class = "titulo">Número de reproducciones</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH">Billie Eilish</p>
-			</td>
-			<td> <p class = "historia">California (Estados Unidos)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:2Fxmhks0bxGSBdJ92vM42m">Bad guy</p>
-			</td>
-			<td> <p class = "historia">1174 M</p>
+			<td> <p class = "contenidoTabla"><b>Número de reproducciones</b></p>
 			</td>
 		</tr>
 		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:4q3ewBCX7sLwd24euuV69X">Bad bunny</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH">Billie Eilish</p>
 			</td>
-			<td> <p class = "historia">Vega Baja (Puerto rico)</p>
+			<td> <p class = "contenidoTabla">California (Estados Unidos)</p>
 			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:4uP3pUP18ennmz0tb3GphR">Solo de mí</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:2Fxmhks0bxGSBdJ92vM42m">Bad guy</p>
 			</td>
-			<td> <p class = "historia">200 M</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:1bAftSH8umNcGZ0uyV7LMg">Duki</a></p>
-			</td>
-			<td> <p class = "historia">Buenos aires (Argentina)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:57kdZIOAaolxAjB67d2yU3">Goteo</a></p>
-			</td>
-			<td> <p class = "historia">114 M</p>
+			<td> <p class = "contenidoTabla">1174 M</p>
 			</td>
 		</tr>
 		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:3uL4UpqShC4p2x1dJutoRW">Ghostemane</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:4q3ewBCX7sLwd24euuV69X">Bad bunny</a></p>
 			</td>
-			<td> <p class = "historia">Florida (Estados unidos)</p>
+			<td> <p class = "contenidoTabla">Vega Baja (Puerto rico)</p>
 			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:2Vc6NJ9PW9gD9q343XFRKx">Mercury</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:4uP3pUP18ennmz0tb3GphR">Solo de mí</a></p>
 			</td>
-			<td> <p class = "historia">74 M</p>
-			</td>
-		</tr>
-		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:4F4pp8NUW08JuXwnoxglpN">Bad gyal</a></p>
-			</td>
-			<td> <p class = "historia">Barcelona (España)</p>
-			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:0OP1RzrglC008kj79Httv3">Zorra</a></p>
-			</td>
-			<td> <p class = "historia">16 M</p>
+			<td> <p class = "contenidoTabla">200 M</p>
 			</td>
 		</tr>
 		<tr>
-			<td> <p class = "historia"><a class="enlace" href="spotify:artist:1rTUwYS38LkQTlT2fhikch">Yung Beef</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:1bAftSH8umNcGZ0uyV7LMg">Duki</a></p>
 			</td>
-			<td> <p class = "historia">Granada (España)</p>
+			<td> <p class = "contenidoTabla">Buenos aires (Argentina)</p>
 			</td>
-			<td> <p class = "historia"><a class="enlace" href="spotify:track:6kFpUyaEiuKriL9bhHLZqR">Ready pa morir</a></p>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:57kdZIOAaolxAjB67d2yU3">Goteo</a></p>
 			</td>
-			<td> <p class = "historia">6 M</p>
+			<td> <p class = "contenidoTabla">114 M</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:3uL4UpqShC4p2x1dJutoRW">Ghostemane</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">Florida (Estados unidos)</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:2Vc6NJ9PW9gD9q343XFRKx">Mercury</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">74 M</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:4F4pp8NUW08JuXwnoxglpN">Bad gyal</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">Barcelona (España)</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:0OP1RzrglC008kj79Httv3">Zorra</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">16 M</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:1rTUwYS38LkQTlT2fhikch">Yung Beef</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">Granada (España)</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:track:6kFpUyaEiuKriL9bhHLZqR">Ready pa morir</a></p>
+			</td>
+			<td> <p class = "contenidoTabla">6 M</p>
 			</td>
 		</tr>
 			
 			</table>
-		<pre>
-		</pre>
-		<p class = "rapTrap"> Playlists recomendadas </p>
-		<p class = "playlist"><a class="enlace" href="./mixesTrap">Playlists de trap</a></p>
-		<p class = "playlist"><a class="enlace" href="./thisIsTrap">Playlists por artista (trap)</a></p>
+		</br>
+		<center><dl class="listaCentrada">
+			<a name="playlists"><p class="sinCentrar24"><b>Playlists recomendadas</b></p></a>
+				<ul>
+					<li><p class = "historia"><a class="enlace" href="./mixesTrap">Playlists de trap</a></p></li>
+					<li><p class = "historia"><a class="enlace" href="./thisIsTrap">Playlists por artista (trap)</a></p></li>	
+			</ul></dl></center>
 		<pre>
 		
 		</pre>
