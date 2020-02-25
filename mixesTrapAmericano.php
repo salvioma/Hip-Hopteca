@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Mixes rap</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="icon" type="image/png" href="./hip-hop-espaol.png" />
+		<link href="./estilos.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<style>
+			.enc {
+				background-color: #3e8e41;
+			}
+			.dropbtn {
+			  background-color: black;
+			  color: #ffffff;
+			  padding: 18px;
+			  font-size: 24px;
+			  font-weight: bold;
+			  border: none;
+			  cursor: pointer;
+			}
+
+			/* The container <div> - needed to position the dropdown content */
+			.dropdown {
+			  position: relative;
+			  display: inline-block;
+			}
+			  .ban{
+			    background-color: black;
+			    width = 100%;
+			  }
+			/* Dropdown Content (Hidden by Default) */
+			.dropdown-content {
+			  display: none;
+			  position: absolute;
+			  background-color: #f9f9f9;
+			  font-family:sans-serif;
+			  min-width: 100%;
+			  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			  z-index: 1;
+			}
+
+			/* Links inside the dropdown */
+			.dropdown-content a {
+			  color: black;
+			  padding: 12px 16px;
+			  text-decoration: none;
+			  display: block;
+			}
+
+			/* Change color of dropdown links on hover */
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			/* Show the dropdown menu on hover */
+			.dropdown:hover .dropdown-content {
+			  display: block;
+			}
+
+			/* Change the background color of the dropdown button when the dropdown content is shown */
+			.dropdown:hover .dropbtn {
+			  background-color: #3e8e41;
+			}
+			.nombre{
+				white-space: nowrap;
+				font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+				font-size: 28px;
+				text-align: center !important;
+				color: #ffffff !important;
+			}
+			.historia{
+				font-size: 24px !important;
+				white-space: pre-line;
+				font-family:sans-serif;
+				margin: 20px;
+				text-align: justify !important;
+			}
+			.nombrePagina{
+				font-family:sans-serif;
+				font-size: 28px !important;
+				text-align: center !important;
+				font-weight: bold;
+			}
+			.contenidoTabla{
+				font-size: 22px !important;
+				white-space: pre-line;
+				font-family:sans-serif;
+				margin: 20px;
+				text-align: center !important;
+			}
+			.playlist{
+				font-size: 24px !important;
+				white-space: pre-line;
+				font-family:sans-serif;
+				margin: 20px;
+				text-align: center !important;
+			}
+			.titulo{
+				font-size: 24px !important;
+				white-space: pre-line;
+				font-family:sans-serif;
+				margin: 20px;
+				font-weight: bold;
+			}
+			.listaCentrada{
+				text-align: left !important;
+    				display:inline-block;
+			}
+			.artistas{
+				font-size: 24px !important;
+				text-align: center !important;
+				white-space: nowrap;
+			}
+			.rapTrap{
+				font-family:sans-serif;
+				font-size: 24px !important;
+				text-align: center !important;
+			}
+			.escena{
+				font-family:sans-serif;
+				font-size: 24px !important;
+				text-align: center !important;
+				font-weight: bold;
+			}
+			.pieFoto{
+				font-family:sans-serif;
+				font-size: 18px !important;
+				text-align: center !important;
+			}
+			.apartados {
+				background-color: #d9d9d9;
+				border: black 3px solid;
+				border-collapse: collapse;
+			}
+			.fotos{
+				text-align: center !important;
+				align: center;
+			}
+			.artistas{
+				text-align: center !important;
+				align: center;
+			}
+			.sinBorde{
+			    border-top: 0px;
+			    border-right: 0px;
+			    border-bottom: 0px;
+			    border-left: 0px;
+			}
+			
+			.enlace{
+				text-decoration:none;
+			}
+			.enlace:link{
+				color: #2f6a31;
+			}
+			.enlace:hover{
+				color:#ff8c1a !important;
+			}
+			.enlace:active {
+				color: #ff8c1a;
+			}
+			.enlace:visited { 
+				color:  #2f6a31; 
+			}
+			
+		</style>
+		
+		<table class = "enc" width="100%" border="1" frame="box" rules="all" cellpadding="15" cellspacing="0">
+		<tr><td class="sinBorde"><a href="./"><img border="0" src="./nombreLogo.png" width="*%" height="30%"></a></td>
+		<td class="sinBorde"><img border="0" src="./eslogan.png" height="45%"></td>
+		</tr></table> 
+					<table class="ban" border="1" frame="box" rules="all" style="margin: 0 auto;" cellpadding=1 width="100%">
+							<tr>
+					      <td class="sinBorde"><center>
+					      <div class="dropdown">
+						       <a href="./"><button class="dropbtn">Inicio</button></a>
+					</div>
+					      </td>
+					            <td class="sinBorde"><center>
+					      <div class="dropdown">
+					  <button class="dropbtn">Lo mejor del año</button>
+					  <div class="dropdown-content">
+					    <a href="spotify:playlist:3Y37T21g6K9AI79fswgGNw">Rap español</a>
+					    <a href="spotify:playlist:4ed4t3pJEhscI8DlwspZvx">Trap español</a>
+					    <a href="spotify:playlist:13XHktUk8Mg896cm2FDmOh">Trap americano</a>
+					    <a href="spotify:playlist:74j89fgf5cG1yu6AkKdr2y">Reggaeton</a>
+					  </div>
+					</div>
+					      </td>
+							<td class="sinBorde"><center>
+					      <div class="dropdown">
+					  <button class="dropbtn" style="color: #0bda12 !important;">Por género musical</button>
+					  <div class="dropdown-content">
+					    <a href="./mixesRap">Rap</a>
+					    <a href="./mixesTrap">Trap</a>
+					<a href="./mixesReggae">Reggae</a>
+					  </div>
+					</div>
+					      </td>
+					      <td class="sinBorde"><center>
+						<div class="dropdown">
+					  <button class="dropbtn">Por artista</button>
+					  <div class="dropdown-content">
+					    <a href="./thisIsRap">Rap</a>
+					    <a href="./thisIsTrap">Trap</a>
+					  </div>
+					</div>
+					      </td>
+					        <td class="sinBorde"><center>
+						<div class="dropdown">
+					  <button class="dropbtn">Más información</button>
+					  <div class="dropdown-content">
+					    <a href="./contacto">Contacto</a>
+					    <a href="./recomendaciones">Recomendaciones</a>
+					  </div>
+					</div>
+					      </td> 
+		</tr></table> 
+		</br>
+		</br>
+		</br>
+		<center><table class = "apartados" width="*%" border="1" frame="box" rules="all" cellpadding="20" cellspacing="0"><tr><td>
+		<center><dl class="listaCentrada"><p class="nombrePagina"><b>Por género musical: rap</b></p>
+  		<ul><li><p class = "nombrePagina"><a class="enlace" href="./mixesRap#general">Escena general</a></p></li>
+    		<li><p class="nombrePagina"><a class="enlace" href="./mixesRap#femenino">Escena femenina</a></p></li>
+		</ul>
+ 		</dl></center>
+			</tr></td></table></center>	
+		</br>
+		</br>
+		<p class="escena"><a name="general"><b>Escena general</b></a></p>	
+		<p class = "contenidoTabla"><b>Playlists recomendadas: <a class="enlace" href="./mixesRapGeneral">mixes de rap general.</a></b></p>
+		<pre></pre>
+		<p class="historia">Durante el final de los <em>años 90</em> se publicaron los primeros álbumes profesionales de rap en español. Con este avance para el Hip-Hop profesional surgieron las diferentes <em>escenas regionales</em> de nuestro país.</p>
+		<pre></pre>
+		<p class="contenidoTabla">Escenas regionales durante los primeros años del rap en España</p>
+		<table class="artistas" width="*%" border="1" style="margin: 0 auto;" frame="box" rules="all" cellpadding=10 cellspacing="0">
+		<tr>
+			<td> <p class = "contenidoTabla">Barcelona</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:1iM1vrvO13b3iT55lnACaO">Solo los Solo</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla">Madrid</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:4mrdGltrmXVqaHGl4UXw3k">El Club de los Poetas Violentos (CPV)</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla">Alicante</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:66ArjpKRgw8vYBf9yhktto">Nach Scratch</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla">Zaragoza</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:1DH9RJ0xBVje6gQmK3LWUY">Violadores del Verso</p>
+			</td>
+		</tr>
+		<tr>
+			<td> <p class = "contenidoTabla">Andalucía</p>
+			</td>
+			<td> <p class = "contenidoTabla"><a class="enlace" href="spotify:artist:56n1NeXsTOOxjX3Z4lVMTJ">SFDK</a> y <a class="enlace" href="spotify:artist:3Ces1OJeGOVGcUB0wPaPXJ">la Mala Rodriguez</a></p>
+			</td>
+		</tr>
+			</table>
+		<pre>
+		</pre>
+		<center><img border="0" src="./kaseo.jpg" width="650px" height="x%"></center>
+		<p class="pieFoto"><a class="enlace" href="spotify:artist:7GmXwGXJSsmWTkCyk5Twux"><em>Kase.O</em></a>, ex-componente de Violadores del Verso, durante su última actuación en Madrid.</em>
+		<pre>
+		</pre>
+		<p class="escena" rel="femenino"><a name="femenino"><b>Escena femenina</b></a></p>
+		<p class = "contenidoTabla"><b>Playlists recomendadas:<a class="enlace" href="./mixesRapFemenino"> mixes de rap femenino.</a></b></p>
+		<pre></pre>
+		<p class="historia">Cada vez son más las raperas dispuestas a terminar con la situación de que el hip hop sea un mundo predominantemente masculino. Con fuerza y talento, las nuevas voces femeninas del rap en castellano vienen pisando muy fuerte. Una <em>presencia creciente pero no nueva</em>, ya que, ya que desde el nacimiento del rap en español nos encontramos con figuras como <a class="enlace" href="spotify:artist:3Ces1OJeGOVGcUB0wPaPXJ"><em>la Mala Rodríguez</em></a>; quien es un clásico entre las mujeres raperas de nuestro país y recibió en el año 2019 el Premio Nacional de las Músicas Actuales del Ministerio de Cultura y Deporte al ser reconocida como "una de las pioneras de la música urbana en nuestro país".
+		</p>
+		<pre>
+		</pre>
+		<center><img border="0" src="./mala.jpg" width="650px" height="x%"></center>
+		<p class="pieFoto"><a class="enlace" href="spotify:artist:3Ces1OJeGOVGcUB0wPaPXJ"><em>La Mala Rodriguez</em></a> durante una de sus actuaciones más recientes.</em>
+		<pre>
+		
+		</pre>
+	</body>
+</html>
