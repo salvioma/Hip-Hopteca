@@ -13,6 +13,9 @@
 	<?php
 		include ('cabecera.php');
 		include ('sidebarIzq.php');
+		for ($i = 0; $i < 50; $i++) {
+			echo '<p>' . $i . ' - ¡Hola Mundo!</p>';
+		}
 	?>
 
 	<div id="contenido">
